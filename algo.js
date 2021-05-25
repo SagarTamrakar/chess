@@ -29,7 +29,7 @@ function calculateScore(){
 };
 function matchs(){
     for(var i=0;i<users.length-1;i++){
-        if(i%2==0){
+        if(i%2==0){                         //here we are applying a condition so that no two values can be repeated
             var match = `${users[i].username} with ${users[i+1].username}`
             matchList.push(match);
         }
