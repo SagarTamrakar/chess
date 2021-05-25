@@ -11,7 +11,7 @@ var matchList=[];
 
 
 //here i am creating a function to calculate score = s_weight *user1.skill +t_weight * user1.skill + l_weight * user1.skill
-//now we can arrage this score in increasing order and we know that two adjacent value in creasing order will have mininmum diiference that is least distace score
+//now we can arrage this score in increasing order and we know that two adjacent value in increasing order will have mininmum diiference that is least distace score
 function calculateScore(){
     waiting_users.forEach( i => {
         {i.skill *=5,            
